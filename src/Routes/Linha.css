@@ -1,0 +1,33 @@
+.Linha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  Link {
+    text-decoration: none;
+    color: #333; /* Cor do texto dos links */
+  }
+  
+  Link:hover {
+    color: #555; /* Cor do texto dos links ao passar o mouse */
+  }
+  
+  p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Cor de fundo dos itens da lista */
+    cursor: pointer;
+  }
+  
+  p:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse sobre os itens da lista */
+  }
